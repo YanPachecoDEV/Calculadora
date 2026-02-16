@@ -9,7 +9,7 @@ body {
     align-items: center;
 
     min-height: 100vh;
-    padding: 20px 20px; /* espaço nas bordas */
+    padding: 40px 20px; /* espaço nas bordas */
     box-sizing: border-box;
     }
 
@@ -19,7 +19,7 @@ body {
     max-width: 600px;
     width: 100%;
     background: #1a1a1a;
-    padding: 25px;
+    padding: 20px;
     border-radius: 12px;
     box-shadow: 0 0 30px rgba(255,106,0,0.5);
     }
@@ -116,6 +116,7 @@ body {
     }
 
     
+
 
 
 
