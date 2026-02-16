@@ -12,8 +12,8 @@ body {
     padding: 40px 20px;
     box-sizing: border-box;
 
-    /* overflow-y: auto;  garante rolagem se precisar 
-    }*/
+    overflow-y: hidden;
+    }
 
 html {
     height: 100%;
