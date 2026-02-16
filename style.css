@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: white;
+    display: flex;
+    justify-content: center;
+    }
+    
+    .simulador {
+    max-width: 600px;
+    width: 95%;
+    margin: 40px 0;
+    background: #1a1a1a;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px #ff6a00;
+    }
+    
+    h2 {
+    text-align: center;
+    color: #ff7a00;
+    }
+    
+    .perfil {
+    margin-bottom: 20px;
+    }
+    
+    select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    }
+    
+    .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+    }
+    
+    .item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #262626;
+    padding: 10px;
+    border-radius: 8px;
+    }
+    
+    .controle button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background: #ff6a00;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+    
+    .controle span {
+    margin: 0 10px;
+    min-width: 20px;
+    text-align: center;
+    }
+    
+    .resultado {
+    margin-top: 25px;
+    text-align: center;
+    }
+    
+    .barra {
+    width: 100%;
+    height: 15px;
+    background: #333;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px 0;
+    }
+    
+    #progresso {
+    height: 100%;
+    width: 0%;
+    background: #ff6a00;
+    transition: 0.3s;
+    }
+    
+    .whatsapp {
+    display: block;
+    margin-top: 15px;
+    padding: 12px;
+    background: #25d366;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    }
+    
+    .whatsapp:hover {
+    background: #1ebe5d;
+    }
+    
+    @media(max-width: 500px){
+    .simulador {
+    padding: 15px;
+    }
+    }
+    
