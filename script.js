@@ -1,4 +1,4 @@
-const numeroWhatsApp = "558007655512"; // ALTERAR
+const numeroWhatsApp = "5599999999999"; // ALTERAR
 
 function alterar(botao, valor) {
 let span = botao.parentElement.querySelector(".valor");
@@ -38,10 +38,10 @@ atualizarWhatsApp(total);
 function recomendarPlano(total){
 let plano = "";
 
-if (total <= 300) plano = "Plano recomendado: 300 Mbps";
-else if (total <= 700) plano = "Plano recomendado: 700 Mbps";
-else if (total <= 800) plano = "Plano recomendado: 800 Mbps";
-else plano = "Plano recomendado: 1000 Mbps";
+if (total <= 200) plano = "Plano recomendado: 200 Mbps";
+else if (total <= 400) plano = "Plano recomendado: 400 Mbps";
+else if (total <= 600) plano = "Plano recomendado: 600 Mbps";
+else plano = "Plano recomendado: 1 Gbps";
 
 document.getElementById("plano").innerText = plano;
 }
@@ -59,11 +59,3 @@ document.getElementById("whatsappBtn").href = link;
 }
 
 document.getElementById("perfil").addEventListener("change", calcular);
-
-
-
-
-
-
-
-
