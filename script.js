@@ -23,9 +23,9 @@ total += qtd * consumo;
 qtdTotal += qtd;
 });
 
-let simultaneidade = 0.7;
-if (qtdTotal <= 3) simultaneidade = 0.9;
-if (qtdTotal >= 10) simultaneidade = 0.6;
+let simultaneidade = 1.0;
+if (qtdTotal <= 3) simultaneidade = 1.3;
+if (qtdTotal >= 10) simultaneidade = 0.9;
 
 total = Math.round(total * perfil * simultaneidade);
 
@@ -59,6 +59,7 @@ document.getElementById("whatsappBtn").href = link;
 }
 
 document.getElementById("perfil").addEventListener("change", calcular);
+
 
 
 
