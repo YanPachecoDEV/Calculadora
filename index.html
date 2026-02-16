@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simulador de Banda - RG Provider</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="simulador">
+
+<h2>🚀 Descubra o Plano Ideal para sua Casa</h2>
+
+<div class="perfil">
+<label>Perfil de Uso</label>
+<select id="perfil">
+<option value="0.6">Leve</option>
+<option value="0.8" selected>Médio</option>
+<option value="1">Intenso</option>
+</select>
+</div>
+
+<div class="grid">
+
+<div class="item" data-consumo="3">
+<span>📱 Celulares</span>
+<div class="controle">
+<button onclick="alterar(this,-1)">-</button>
+<span class="valor">0</span>
+<button onclick="alterar(this,1)">+</button>
+</div>
+</div>
+
+<div class="item" data-consumo="5">
+<span>💻 Computadores</span>
+<div class="controle">
+<button onclick="alterar(this,-1)">-</button>
+<span class="valor">0</span>
+<button onclick="alterar(this,1)">+</button>
+</div>
+</div>
+
+<div class="item" data-consumo="8">
+<span>📺 TV Full HD</span>
+<div class="controle">
+<button onclick="alterar(this,-1)">-</button>
+<span class="valor">0</span>
+<button onclick="alterar(this,1)">+</button>
+</div>
+</div>
+
+<div class="item" data-consumo="25">
+<span>📺 TV 4K</span>
+<div class="controle">
+<button onclick="alterar(this,-1)">-</button>
+<span class="valor">0</span>
+<button onclick="alterar(this,1)">+</button>
+</div>
+</div>
+
+<div class="item" data-consumo="5">
+<span>🎮 Console</span>
+<div class="controle">
+<button onclick="alterar(this,-1)">-</button>
+<span class="valor">0</span>
+<button onclick="alterar(this,1)">+</button>
+</div>
+</div>
+
+<div class="item" data-consumo="1">
+<span>🏠 IoT / Câmeras</span>
+<div class="controle">
+<button onclick="alterar(this,-1)">-</button>
+<span class="valor">0</span>
+<button onclick="alterar(this,1)">+</button>
+</div>
+</div>
+
+</div>
+
+<div class="resultado">
+<h3 id="total">0 Mbps</h3>
+<div class="barra"><div id="progresso"></div></div>
+<p id="plano"></p>
+
+<a id="whatsappBtn" target="_blank" class="whatsapp">
+Fale com um vendedor via WhatsApp
+</a>
+</div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
