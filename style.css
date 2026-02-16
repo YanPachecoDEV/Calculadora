@@ -15,15 +15,15 @@ body {
 
 
     
-    .simulador {
+.simulador {
     max-width: 600px;
-    width: 95%;
-    margin: 40px 0;
+    width: 100%;
     background: #1a1a1a;
     padding: 25px;
     border-radius: 12px;
-    box-shadow: 0 0 20px #ff6a00;
+    box-shadow: 0 0 30px rgba(255,106,0,0.5);
     }
+
     
     h2 {
     text-align: center;
@@ -116,4 +116,5 @@ body {
     }
 
     
+
 
