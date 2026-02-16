@@ -1,4 +1,4 @@
-const numeroWhatsApp = "5508007655512"; // ALTERAR
+const numeroWhatsApp = "558007655512"; // ALTERAR
 
 function alterar(botao, valor) {
 let span = botao.parentElement.querySelector(".valor");
@@ -59,5 +59,6 @@ document.getElementById("whatsappBtn").href = link;
 }
 
 document.getElementById("perfil").addEventListener("change", calcular);
+
 
 
