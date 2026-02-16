@@ -9,7 +9,10 @@ body {
     align-items: center;
 
     min-height: 100vh;
+    padding: 40px 20px; /* espaço nas bordas */
+    box-sizing: border-box;
     }
+
 
     
     .simulador {
@@ -113,3 +116,4 @@ body {
     }
 
     
+
