@@ -38,9 +38,9 @@ atualizarWhatsApp(total);
 function recomendarPlano(total){
 let plano = "";
 
-if (total <= 200) plano = "Plano recomendado: 300 Mbps";
-else if (total <= 400) plano = "Plano recomendado: 700 Mbps";
-else if (total <= 600) plano = "Plano recomendado: 800 Mbps";
+if (total <= 300) plano = "Plano recomendado: 300 Mbps";
+else if (total <= 700) plano = "Plano recomendado: 700 Mbps";
+else if (total <= 800) plano = "Plano recomendado: 800 Mbps";
 else plano = "Plano recomendado: 1000 Mbps";
 
 document.getElementById("plano").innerText = plano;
@@ -59,6 +59,7 @@ document.getElementById("whatsappBtn").href = link;
 }
 
 document.getElementById("perfil").addEventListener("change", calcular);
+
 
 
 
