@@ -3,9 +3,14 @@ body {
     font-family: Arial, sans-serif;
     background: #111;
     color: white;
+
     display: flex;
     justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
     }
+
     
     .simulador {
     max-width: 600px;
@@ -106,4 +111,5 @@ body {
     padding: 15px;
     }
     }
+
     
