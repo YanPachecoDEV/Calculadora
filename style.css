@@ -9,9 +9,12 @@ body {
     align-items: center;
 
     min-height: 100vh;
-    padding: 40px 20px; /* espaço nas bordas */
+    padding: 40px 20px;
     box-sizing: border-box;
+
+    overflow-y: auto; /* garante rolagem se precisar */
     }
+
 
 
     
@@ -19,10 +22,11 @@ body {
     max-width: 600px;
     width: 100%;
     background: #1a1a1a;
-    padding: 20px;
+    padding: 25px;
     border-radius: 12px;
     box-shadow: 0 0 30px rgba(255,106,0,0.5);
     }
+
 
     
     h2 {
@@ -116,6 +120,7 @@ body {
     }
 
     
+
 
 
 
