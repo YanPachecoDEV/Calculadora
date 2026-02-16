@@ -15,7 +15,9 @@ body {
     overflow-y: auto; /* garante rolagem se precisar */
     }
 
-
+html {
+    height: 100%;
+    }
 
     
 .simulador {
@@ -120,6 +122,7 @@ body {
     }
 
     
+
 
 
 
